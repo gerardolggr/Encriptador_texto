@@ -1,0 +1,236 @@
+body{
+    background-color: #F3F5FC;
+    
+}
+
+header{
+    display: inline-block;
+    margin: 40px;  
+}
+
+header img{
+    width: 120px;
+    height: 40px;
+}
+
+.ingresar_mensaje{
+    position: absolute;
+    top: 170px;
+    left: 150px;
+}
+
+.ingresar_mensaje textarea{
+    border: none;
+    background-color: #F3F5FC;
+    width: 500px;
+    height: 50px;
+    columns: 70;
+    font-size: 25px;
+    font-weight: bold;
+    resize: both;
+}
+
+.btns_y_aviso p{
+    position: absolute;
+    top: 550px;
+    left: 150px;
+    font-weight: bold;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: absolute;
+    top: 580px;
+    left: 150px;
+}
+
+#Encriptador{
+    width: 300px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 15px;
+    background-color: #0a3871;
+    padding: 24px;
+}
+
+#Desencriptador{
+    width: 300px;
+    border: 1px solid #0a3871;
+    border-radius: 25px;
+    color: #0c0c0c;
+    font-size: 15px;
+    background-color: #D8DFE8;
+    padding: 24px;
+}
+
+#mensaje_2{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #D8DFE8;
+    position: absolute;
+    left: 900px;
+    top: 40px;
+    right: 40px;
+    bottom: 40px;
+    border-radius: 25px;
+}
+
+#mensaje_2 p{
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#mensaje_2 input{
+    position: absolute;
+    bottom: 30px;
+    width: 300px;
+    border: 1px solid #0a3871;
+    border-radius: 25px;
+    color: #0c0c0c;
+    font-size: 15px;
+    background-color: #D8DFE8;
+    padding: 24px;
+    display: none;
+}
+
+footer div{
+    position: relative;
+    top: 750px;
+    width: 100%;
+    height: 5rem;
+    background-color: #0a3871;
+}
+
+#Encriptador:hover{
+    background-color: #052f62;
+    cursor: pointer;
+    transform: scale(1.1);
+    font-size: 16px;
+}
+
+#Desencriptador:hover{
+    background-color: #c2d2e7;
+    cursor: pointer;
+    transform: scale(1.1);
+    font-size: 16px;   
+}
+
+#btn_copiar:hover{
+    background-color: #c2d2e7;
+    cursor: pointer;
+    transform: scale(1.1);
+    font-size: 16px; 
+}
+
+/*Media queries*/
+@media screen and (min-width: 250px) and (max-width: 450px) {
+    header{
+        margin: 0;
+        padding: 10px 10px;
+    }
+
+    .ingresar_mensaje{
+        left: 30px;
+    }
+
+    .ingresar_mensaje textarea{
+        width: 80%;
+        columns: 35;
+    }
+
+    .btns_y_aviso p{
+        left: 30px;
+        top: 400px
+    }
+
+    .btns{
+        flex-direction: column;
+        gap: 20px;
+        left: 30px;
+        top: 430px;
+    }
+
+    #mensaje_2{
+        top: 630px;
+        left: 30px;
+        width: 300px;
+        height: max-content;
+        justify-content: flex-start;  
+        padding-bottom: 30px; 
+    }
+
+    #mensaje_2 input{
+        width: 70%;
+        position: initial;
+    }
+
+    #mensaje_2 img{
+        display: none;
+    }
+
+    footer div{
+        display: none;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 850px) {
+    header{
+        margin: 0;
+        padding: 10px 10px;
+    }
+
+    .ingresar_mensaje{
+        left: 30px;
+    }
+
+    .ingresar_mensaje textarea{
+        width: 90%;
+        columns: 35;
+    }
+
+    .btns_y_aviso p{
+        left: 30px;
+        top: 836px;
+    }
+
+    .btns{
+        flex-direction: row;
+        gap: 20px;
+        left: 30px;
+        top: 870px;
+    }
+
+    #mensaje_2{
+        top: 1001px;
+        left: 30px;
+        width: 90%;
+        height: max-content;
+        justify-content: flex-start;  
+        padding-bottom: 30px; 
+    }
+
+    #mensaje_2 input{
+        width: 70%;
+        position: initial;
+    }
+
+    #mensaje_2 img{
+        display: none;
+    }
+
+    footer div{
+        display: none;
+        width: 100%;
+    }
+}
