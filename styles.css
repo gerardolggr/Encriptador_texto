@@ -103,12 +103,16 @@ header img{
     display: none;
 }
 
-footer div{
+footer{
     position: relative;
-    top: 750px;
+    top: 600px;
     width: 100%;
     height: 5rem;
-    background-color: #0a3871;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
 }
 
 #Encriptador:hover{
