@@ -75,7 +75,7 @@ header img{
     align-items: center;
     gap: 20px;
     background-color: #D8DFE8;
-    position: relative;
+    position: absolute;
     left: 900px;
     top: 40px;
     right: 40px;
@@ -103,7 +103,7 @@ header img{
     display: none;
 }
 
-footer{
+footer div{
     position: relative;
     top: 600px;
     width: 100%;
@@ -165,7 +165,7 @@ footer{
     }
 
     #mensaje_2{
-        top: 550px;
+        top: 600px;
         left: 30px;
         width: 300px;
         height: max-content;
@@ -182,8 +182,8 @@ footer{
         display: none;
     }
 
-    footer {
-        top: 550px;
+    footer div{
+        top: 700px;
         margin-top: 20px;
         width: 100%;
     }
@@ -217,7 +217,7 @@ footer{
     }
 
     #mensaje_2{
-        top: 1001px;
+        top: 980px;
         left: 30px;
         width: 90%;
         height: max-content;
@@ -234,8 +234,8 @@ footer{
         display: none;
     }
 
-    footer{
-        top: 1050px;
+    footer div{
+        top: 1100px;
         width: 100%;
         margin-top: 20px;
     }
