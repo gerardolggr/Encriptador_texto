@@ -75,7 +75,7 @@ header img{
     align-items: center;
     gap: 20px;
     background-color: #D8DFE8;
-    position: absolute;
+    position: relative;
     left: 900px;
     top: 40px;
     right: 40px;
@@ -165,7 +165,7 @@ footer{
     }
 
     #mensaje_2{
-        top: 630px;
+        top: 550px;
         left: 30px;
         width: 300px;
         height: max-content;
@@ -182,13 +182,14 @@ footer{
         display: none;
     }
 
-    footer div{
-        display: none;
+    footer {
+        top: 550px;
+        margin-top: 20px;
         width: 100%;
     }
 }
 
-@media screen and (min-width: 500px) and (max-width: 850px) {
+@media screen and (min-width: 500px) and (max-width: 1000px) {
     header{
         margin: 0;
         padding: 10px 10px;
@@ -233,8 +234,9 @@ footer{
         display: none;
     }
 
-    footer div{
-        display: none;
+    footer{
+        top: 1050px;
         width: 100%;
+        margin-top: 20px;
     }
 }
